@@ -1,5 +1,10 @@
+import NavbarComponent from "../../../global/components/navigations/navbar-comp";
+
 export default function HomePage() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <NavbarComponent/>
+      
+    </>
   )
 }
