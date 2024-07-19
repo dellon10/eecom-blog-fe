@@ -6,11 +6,11 @@ export default function NavbarComponent() {
   return (
     <>
       <Navbar className="flex flex-wrap justify-between items-center p-3 bg-red-600">
-        <Link to={"/"} className="flex items-center space-x-3 rtl:space-x-reverse text-white">
+        <Link to={"/"} className="flex items-center space-x-2 rtl:space-x-reverse text-white">
           <img src={"/eecom-logo.png"} className="h-10 md:h-14" alt="EECOM LOGO" />
           <div className="flex flex-col justify-center">
-            <h1 className="font-semibold md:text-xl">UKM-FT EECOM</h1>
-            <span className="md:text-lg">Engineering English Community</span>
+            <h1 className="font-semibold text-base md:text-2xl">UKM-FT EECOM</h1>
+            <span className="text-xs md:text-lg">Engineering English Community</span>
           </div>
         </Link>
       
@@ -20,7 +20,7 @@ export default function NavbarComponent() {
       </Navbar>
 
       <div className="bg-slate-200 text-red-700 overflow-auto scrollbar-hide md:flex md:justify-center">
-        <div className="flex space-x-8 text-center font-medium whitespace-nowrap">
+        <div className="flex space-x-1 text-center font-medium whitespace-nowrap">
           <Link to="/" className="flex items-center px-3 py-2 hover:bg-red-600 hover:text-white">
             <HiHome className="mr-1"/>Home
           </Link>
@@ -73,7 +73,7 @@ export default function NavbarComponent() {
             </Dropdown>
           </div>
           
-          <Link to="/" className="flex items-center px-3 py-2 hover:bg-red-600 hover:text-white">
+          <Link to="/docs" className="flex items-center px-3 py-2 hover:bg-red-600 hover:text-white">
             <HiCollection className="mr-1"/>Publication
           </Link>
         </div>
