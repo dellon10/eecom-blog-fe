@@ -1,4 +1,4 @@
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTiktok, BsTwitter, BsYoutube } from "react-icons/bs";
+import { BsInstagram, BsTiktok, BsYoutube } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 export default function FooterComponent() {
