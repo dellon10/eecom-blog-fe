@@ -10,7 +10,7 @@ export default function NavbarComponent() {
           <img src={"/eecom-logo.png"} className="h-10 md:h-14" alt="EECOM LOGO" />
           <div className="flex flex-col justify-center">
             <h1 className="font-semibold text-base md:text-2xl">UKM-FT EECOM</h1>
-            <span className="text-xs md:text-lg">Engineering English Community</span>
+            <span className="text-xs">Engineering English Community</span>
           </div>
         </Link>
       
@@ -28,10 +28,10 @@ export default function NavbarComponent() {
           <div className="flex items-center px-3 py-2 hover:bg-red-600 hover:text-white">
             <Dropdown label={<><HiInformationCircle className="mr-1"/>About</>} inline>
               <Dropdown.Item className="text-red-700">
-                <Link to="/info-1">Organization</Link>
+                <Link to="/about/profile">Profile</Link>
               </Dropdown.Item>
               <Dropdown.Item className="text-red-700">
-                <Link to="/info-1">Mars EECOM</Link>
+                <Link to="/about/mars-eecom">Mars EECOM</Link>
               </Dropdown.Item>
             </Dropdown>
           </div>

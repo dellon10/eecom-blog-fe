@@ -16,7 +16,7 @@ export default function NotFoundPage() {
         <img src={imgBuddy} alt="Decorative Image" className="h-24" />
       </Link>
       <div className="text-center">
-        <h1 className="text-6xl text-white font-bold">404</h1>
+        <h1 className="text-6xl md:text-8xl text-white font-bold">404</h1>
         <p className="text-2xl text-white mt-2">Page Not Found</p>
         <Link to={"/"} className="inline-block mt-4">
           <Button gradientDuoTone="pinkToOrange" className="focus:outline-none">

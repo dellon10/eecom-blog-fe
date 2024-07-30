@@ -1,22 +1,52 @@
 import { createBrowserRouter } from "react-router-dom"
 
-import HomePage from "../user/pages/homepage"
 import NotFoundPage from "../global/pages/404"
+import { FooterComponent, NavbarComponent, JumbotronComponent } from "../global/components"
+
+import HomePage from "../user/homepage"
+import MarsEecom from "../user/mars-eecom"
+
 
 const router = createBrowserRouter([
   {
     path : "/",
     element : (
-      <HomePage/>
+      <>
+        <NavbarComponent />
+        <HomePage/>
+        <FooterComponent />
+      </>
     ),
   },
   {
-    path : "/about",
+    path : "/about/mars-eecom",
     element : (
-      <div>
-        <h1>About</h1>
-      </div>
+      <>
+        <NavbarComponent />
+        <JumbotronComponent textPage="MARS EECOM" />
+        <MarsEecom />
+        <FooterComponent />
+      </>
     ),
+  },
+  {
+    path : "/about/profile",
+    element : (
+      <>
+        <NavbarComponent />
+        <JumbotronComponent textPage="PROFILE" />
+        <MarsEecom />
+        <FooterComponent />
+      </>
+    ),
+  },
+  {
+    path : "/v2-gate",
+    element : (
+      <>
+        <NotFoundPage />
+      </>
+    )
   },
   {
     path : "/*",
