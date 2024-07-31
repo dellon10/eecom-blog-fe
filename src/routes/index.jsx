@@ -5,6 +5,7 @@ import { FooterComponent, NavbarComponent, JumbotronComponent } from "../global/
 
 import HomePage from "../user/homepage"
 import MarsEecom from "../user/mars-eecom"
+import ProfileEecom from "../user/profile"
 
 
 const router = createBrowserRouter([
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path : "/about/mars-eecom",
+    path : "/mars-eecom",
     element : (
       <>
         <NavbarComponent />
@@ -30,18 +31,18 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path : "/about/profile",
+    path : "/profile",
     element : (
       <>
         <NavbarComponent />
-        <JumbotronComponent textPage="PROFILE" />
-        <MarsEecom />
+        <JumbotronComponent textPage="PROFILE EECOM" />
+        <ProfileEecom />
         <FooterComponent />
       </>
     ),
   },
   {
-    path : "/v2-gate",
+    path : "/v1-gate",
     element : (
       <>
         <NotFoundPage />

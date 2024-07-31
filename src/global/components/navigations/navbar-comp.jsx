@@ -28,10 +28,13 @@ export default function NavbarComponent() {
           <div className="flex items-center px-3 py-2 hover:bg-red-600 hover:text-white">
             <Dropdown label={<><HiInformationCircle className="mr-1"/>About</>} inline>
               <Dropdown.Item className="text-red-700">
-                <Link to="/about/profile">Profile</Link>
+                <Link to="/profile">Profile</Link>
               </Dropdown.Item>
               <Dropdown.Item className="text-red-700">
-                <Link to="/about/mars-eecom">Mars EECOM</Link>
+                <Link to="/logo-eecom">Logo EECOM</Link>
+              </Dropdown.Item>
+              <Dropdown.Item className="text-red-700">
+                <Link to="/mars-eecom">Mars EECOM</Link>
               </Dropdown.Item>
             </Dropdown>
           </div>
