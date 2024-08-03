@@ -6,6 +6,7 @@ import { FooterComponent, NavbarComponent, JumbotronComponent } from "../global/
 import HomePage from "../user/homepage"
 import MarsEecom from "../user/mars-eecom"
 import ProfileEecom from "../user/profile"
+import LogoEecom from "../user/logo-eecom"
 
 
 const router = createBrowserRouter([
@@ -37,6 +38,17 @@ const router = createBrowserRouter([
         <NavbarComponent />
         <JumbotronComponent textPage="PROFILE EECOM" />
         <ProfileEecom />
+        <FooterComponent />
+      </>
+    ),
+  },
+  {
+    path : "/logo-eecom",
+    element : (
+      <>
+        <NavbarComponent />
+        <JumbotronComponent textPage="LOGO EECOM" />
+        <LogoEecom />
         <FooterComponent />
       </>
     ),
