@@ -62,3 +62,8 @@ html {
   font-weight: 600;
   color: var(--color-primary);
 }
+
+.bold-list-alpha li::marker {
+  font-weight: bold;
+  color: var(--color-primary);
+}

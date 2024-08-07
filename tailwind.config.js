@@ -22,6 +22,11 @@ export default {
       '6xl': '4rem',
       '7xl': '5rem',
       '8xl': '6rem',
+    },
+    listStyleType : {
+      'none' : 'none',
+      'decimal' : 'decimal',
+      'upper-alpha' : 'upper-alpha',
     }
   },
   plugins: [

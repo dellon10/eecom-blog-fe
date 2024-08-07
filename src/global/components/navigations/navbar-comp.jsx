@@ -28,7 +28,7 @@ export default function NavbarComponent() {
           <div className="flex items-center px-3 py-2 hover:bg-red-600 hover:text-white">
             <Dropdown label={<><HiInformationCircle className="mr-1"/>About</>} inline>
               <Dropdown.Item className="text-red-700">
-                <Link to="/profile">Profile</Link>
+                <Link to="/profile">Profile EECOM</Link>
               </Dropdown.Item>
               <Dropdown.Item className="text-red-700">
                 <Link to="/logo-eecom">Logo EECOM</Link>
@@ -40,7 +40,10 @@ export default function NavbarComponent() {
           </div>
 
           <div className="flex items-center px-3 py-2 hover:bg-red-600 hover:text-white">
-            <Dropdown label={<><HiUserGroup className="mr-1"/>Committee</>} inline>
+            <Dropdown label={<><HiUserGroup className="mr-1"/>Organization</>} inline>
+              <Dropdown.Item className="text-red-700">
+                <Link to="/struktur-organisasi">Struktur Organisasi</Link>
+              </Dropdown.Item>
               <Dropdown.Item className="text-red-700">
                 <Link to="/info-1">Daily Manager</Link>
               </Dropdown.Item>

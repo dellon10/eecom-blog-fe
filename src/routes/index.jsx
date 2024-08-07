@@ -7,6 +7,7 @@ import HomePage from "../user/homepage"
 import MarsEecom from "../user/mars-eecom"
 import ProfileEecom from "../user/profile"
 import LogoEecom from "../user/logo-eecom"
+import StrukturOrganisasi from "../user/struktur-organisasi"
 
 
 const router = createBrowserRouter([
@@ -54,10 +55,21 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path : "/struktur-organisasi",
+    element : (
+      <>
+        <NavbarComponent />
+        <JumbotronComponent textPage="STRUKTUR ORGANISASI" />
+        <StrukturOrganisasi />
+        <FooterComponent />
+      </>
+    ),
+  },
+  {
     path : "/v1-gate",
     element : (
       <>
-        <NotFoundPage />
+        <h1>ADMIN</h1>
       </>
     )
   },
