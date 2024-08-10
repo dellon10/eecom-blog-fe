@@ -55,7 +55,18 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path : "/struktur-organisasi",
+    path : "/organisasi/struktur",
+    element : (
+      <>
+        <NavbarComponent />
+        <JumbotronComponent textPage="STRUKTUR ORGANISASI" />
+        <StrukturOrganisasi />
+        <FooterComponent />
+      </>
+    ),
+  },
+  {
+    path : `/organisasi/daily-manager/2024`,
     element : (
       <>
         <NavbarComponent />
