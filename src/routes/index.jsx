@@ -8,6 +8,7 @@ import MarsEecom from "../user/mars-eecom"
 import ProfileEecom from "../user/profile"
 import LogoEecom from "../user/logo-eecom"
 import StrukturOrganisasi from "../user/struktur-organisasi"
+import DivisionPage from "../user/divisi"
 
 
 const router = createBrowserRouter([
@@ -66,13 +67,10 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path : `/organisasi/daily-manager/2024`,
+    path : `/organisasi/:division/:year`,
     element : (
       <>
-        <NavbarComponent />
-        <JumbotronComponent textPage="STRUKTUR ORGANISASI" />
-        <StrukturOrganisasi />
-        <FooterComponent />
+        <DivisionPage />
       </>
     ),
   },

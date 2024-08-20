@@ -48,19 +48,19 @@ export default function NavbarComponent() {
               <Dropdown.Divider />
               
               <Dropdown.Item className="text-red-700">
-                <Link to="/info-1">Daily Manager</Link>
+                <Link to="/organisasi/ph/2024">Daily Manager</Link>
               </Dropdown.Item>
               <Dropdown.Item className="text-red-700">
-                <Link to="/info-1">Human Resource Development</Link>
+                <Link to="/organisasi/hrd/2024">Human Resource Development</Link>
               </Dropdown.Item>
               <Dropdown.Item className="text-red-700">
-                <Link to="/info-1">Research And Development</Link>
+                <Link to="/organisasi/rnd/2024">Research And Development</Link>
               </Dropdown.Item>
               <Dropdown.Item className="text-red-700">
-                <Link to="/info-1">Information And Communication</Link>
+                <Link to="/organisasi/ic/2024">Information And Communication</Link>
               </Dropdown.Item>
               <Dropdown.Item className="text-red-700">
-                <Link to="/info-1">Entrepreneurship</Link>
+                <Link to="/organisasi/entre/2024">Entrepreneurship</Link>
               </Dropdown.Item>
             </Dropdown>
           </div>
