@@ -214,51 +214,101 @@
     "ic": [
       {
         "id" : 1,
-        "name": "",
+        "name": "Frezie Dinda Sabila",
         "as" : "Coordinator of IC",
-        "photo": "",
-        "major" : " Engineering",
-        "akt": 202
+        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723806591/eecom/divisi/ic/frezie_dinda_sabila_co_ic_fnijy4.png",
+        "major" : "Industrial Engineering",
+        "akt": 2022
       },
       {
         "id" : 2,
-        "name": "",
+        "name": "Sabrina Nur Fadiyah",
         "as" : "Secretary of IC",
-        "photo": "",
-        "major" : " Engineering",
-        "akt": 202
+        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723806588/eecom/divisi/ic/sabrina_nur_fadiyah_sekdiv_ic_un9e6o.png",
+        "major" : "Industrial Engineering",
+        "akt": 2023
       }, {
         "id" : 3,
-        "name": "",
+        "name": "Bagus Dwilaksono",
         "as" : "Staff of IC",
-        "photo": "",
-        "major" : " Engineering",
-        "akt": 202
+        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723806585/eecom/divisi/ic/bagus_dwi_laksono_staff_ic_bxhkth.png",
+        "major" : "Industrial Engineering",
+        "akt": 2023
       }, {
         "id" : 4,
-        "name": "",
+        "name": "Syahrul Mubarok",
         "as" : "Staff of IC",
-        "photo": "",
-        "major" : " Engineering",
-        "akt": 202
+        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723806591/eecom/divisi/ic/syahrul_mubarok_staff_ic_dq10pk.png",
+        "major" : "Industrial Engineering",
+        "akt": 2021
       }, {
         "id" : 5,
-        "name": "",
+        "name": "Auliya Istighfarina",
         "as" : "Staff of IC",
-        "photo": "",
-        "major" : " Engineering",
-        "akt": 202
+        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723806588/eecom/divisi/ic/auliya_istighfarina_staff_ic_flmk8z.png",
+        "major" : "Informatics Engineering",
+        "akt": 2022
       }, {
         "id" : 5,
-        "name": "",
+        "name": "Nadya Ayu Issabela",
         "as" : "Staff of IC",
-        "photo": "",
-        "major" : " Engineering",
-        "akt": 202
-      },
-
+        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723806589/eecom/divisi/ic/nadya_ayu_isabela_staff_ic_jurggn.png",
+        "major" : "Industrial Engineering",
+        "akt": 2022
+      }
       
     ],
-    "entre": {}
+
+    "entre": [
+      {
+        "id" : 1,
+        "name": "Alifta Firda Azzahra",
+        "as" : "Coordinator of Entre",
+        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723808778/eecom/divisi/entre/alifta_firda_azzahra_co_entre_vyoegb.png",
+        "major" : "Industrial Engineering",
+        "akt": 2022
+      },
+      {
+        "id" : 2,
+        "name": "Kristina Magnalia Madyatri",
+        "as" : "Secretary of Entre",
+        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723808766/eecom/divisi/entre/kristina_magnalia_sekdiv_entre_us5zra.png",
+        "major" : "Industrial Engineering",
+        "akt": 2023
+      },
+      {
+        "id" : 3,
+        "name": "Muhammad Galeh Febrianto",
+        "as" : "Staff of Entre",
+        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723808764/eecom/divisi/entre/muhammad_galeh_febrianto_staff_entre_vvhnl9.png",
+        "major" : "Industrial Engineering",
+        "akt": 2023
+      },
+      {
+        "id" : 4,
+        "name": "Mokhammad Khoirul Rozik",
+        "as" : "Staff of Entre",
+        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723808773/eecom/divisi/entre/muhammad_khoirul_rozik_staff_entre_pscgfg.png",
+        "major" : "Electrical Engineering",
+        "akt": 2022
+      },
+      {
+        "id" : 5,
+        "name": "Priskhi Wulandari",
+        "as" : "Staff of Entre",
+        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723808792/eecom/divisi/entre/priskhi_wulandari_staff_entre_hdudc9.png",
+        "major" : "Industrial Engineering",
+        "akt": 2022
+      },
+      {
+        "id" : 6,
+        "name": "Felicia Maulia Putri",
+        "as" : "Staff of Entre",
+        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723808770/eecom/divisi/entre/felicia_maulia_putri_staff_entre_it9ooi.png",
+        "major" : "Industrial Engineering",
+        "akt": 2022
+      }
+    ]
+    
   }
 }
