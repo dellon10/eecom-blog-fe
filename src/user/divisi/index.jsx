@@ -1,40 +1,67 @@
-import { useParams } from "react-router-dom"
-import { FooterComponent, JumbotronComponent, NavbarComponent } from "../../global/components"
-import NotFoundPage from "../../global/pages/404"
-import CardPersonDivision from "./components/card-person"
+import { useParams } from "react-router-dom";
+import { FooterComponent, JumbotronComponent, NavbarComponent } from "../../global/components";
+import NotFoundPage from "../../global/pages/404";
+
+// pages
+import PHPages from "./pages/ph-page";
 
 export default function DivisionPage() {
-  
-  const { division, year } = useParams()
+  const { division, year } = useParams();
 
   // validate division and year
-  const validDivision = ["ph", "entre", "ic", "hrd", "rnd"]
-  const validYear = ["2024"]
+  const validDivision = ["ph", "entre", "ic", "hrd", "rnd"];
+  const validYear = ["2024"];
 
   if (!validDivision.includes(division) || !validYear.includes(year)) {
-    return <NotFoundPage />
-  }
-  
-  // define title page
-  const titlePageMap = {
-    ph : "DAILY MANAGER",
-    entre : "ENTREPRENEURSHIP",
-    ic : "INFORMATION AND COMMUNICATION",
-    hrd : "HUMAN RESOURCE DEVELOPMENT",
-    rnd : "RESERCH AND DEVELOPMENT"
+    return <NotFoundPage />;
   }
 
-  const titlePage = titlePageMap[division]
+  const titlePageMap = {
+    ph: "DAILY MANAGER",
+    entre: "ENTREPRENEURSHIP",
+    ic: "INFORMATION AND COMMUNICATION",
+    hrd: "HUMAN RESOURCE DEVELOPMENT",
+    rnd: "RESEARCH AND DEVELOPMENT",
+  };
+
+  const titlePage = titlePageMap[division];
+
+  // rendering division content
+  const renderDivisionContent = () => {
+    switch (division) {
+      case "ph":
+        return <PHPages />;
+      case "entre":
+        return <p>Konten untuk divisi ENTREPRENEURSHIP</p>;
+      case "ic":
+        return <p>Konten untuk divisi INFORMATION AND COMMUNICATION</p>;
+      case "hrd":
+        return <p>Konten untuk divisi HUMAN RESOURCE DEVELOPMENT</p>;
+      case "rnd":
+        return <p>Konten untuk divisi RESEARCH AND DEVELOPMENT</p>;
+      default:
+        return null;
+    }
+  };
 
   return (
     <>
       <NavbarComponent />
 
       <JumbotronComponent textPage={titlePage} />
-      
-      <CardPersonDivision />
-    
+
+      <div className="flex flex-col md:flex-row min-h-screen px-3 pt-5 bg-white">
+        <div className="md:w-8/12 w-full px-2">
+          <h1 className="font-bold md:text-3xl mb-4">{titlePage} {year}</h1>
+          {renderDivisionContent()}
+        </div>
+
+        <div className="md:w-4/12 w-full mt-5 md:mt-0 px-2">
+          Side Card
+        </div>
+      </div>
+
       <FooterComponent />
     </>
-  )
+  );
 }
