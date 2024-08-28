@@ -67,3 +67,8 @@ html {
   font-weight: bold;
   color: var(--color-primary);
 }
+
+/* slides */
+.slick-slide > div {
+  margin: 0 3px;
+}

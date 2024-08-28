@@ -1,10 +1,17 @@
-import CardPersonDivision from "../components/card-person";
+import SliderMember from "../components/slider-member";
+import data from "../data/data-member.json";
 
 export default function PHPages() {
   return (
     <>
-      <h1>Divisi Personalia</h1>
-      <CardPersonDivision />
+
+      {/* slider */}
+      <div className="w-full m-auto">
+        <div className="mt-20">
+          <SliderMember data={data.ph} />
+        </div>
+
+      </div>
     </>
-  )
+  );
 }

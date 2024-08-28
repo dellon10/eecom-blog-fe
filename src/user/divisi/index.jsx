@@ -2,8 +2,15 @@ import { useParams } from "react-router-dom";
 import { FooterComponent, JumbotronComponent, NavbarComponent } from "../../global/components";
 import NotFoundPage from "../../global/pages/404";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 // pages
 import PHPages from "./pages/ph-page";
+import ICPages from "./pages/ic-page";
+import EntrePages from "./pages/entre-page";
+import HRDPages from "./pages/hrd-page";
+import RNDPages from "./pages/rnd-page";
 
 export default function DivisionPage() {
   const { division, year } = useParams();
@@ -32,13 +39,13 @@ export default function DivisionPage() {
       case "ph":
         return <PHPages />;
       case "entre":
-        return <p>Konten untuk divisi ENTREPRENEURSHIP</p>;
+        return <EntrePages />;
       case "ic":
-        return <p>Konten untuk divisi INFORMATION AND COMMUNICATION</p>;
+        return <ICPages />;
       case "hrd":
-        return <p>Konten untuk divisi HUMAN RESOURCE DEVELOPMENT</p>;
+        return <HRDPages />;
       case "rnd":
-        return <p>Konten untuk divisi RESEARCH AND DEVELOPMENT</p>;
+        return <RNDPages />;
       default:
         return null;
     }
