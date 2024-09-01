@@ -59,7 +59,7 @@ export default function DivisionPage() {
 
       <div className="flex flex-col md:flex-row min-h-screen px-3 pt-5 bg-white">
         <div className="md:w-8/12 w-full px-2">
-          <h1 className="font-bold md:text-3xl mb-4">{titlePage} {year}</h1>
+          <h1 className="font-bold md:text-2xl mb-3">{titlePage} {year}</h1>
           {renderDivisionContent()}
         </div>
 

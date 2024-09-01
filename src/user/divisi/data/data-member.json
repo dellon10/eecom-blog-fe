@@ -1,5 +1,6 @@
 {
-  "ph": { 
+  "ph": {
+    "jobdesk" : "Daily Manager berperan sebagai motor penggerak utama dalam menjalankan operasional harian UKM-FT EECOM, dengan tanggung jawab mengimplementasikan kebijakan, mengelola keuangan, serta mengoordinasikan berbagai kegiatan untuk memastikan semuanya berjalan lancar. Selain itu, Daily Manager juga berperan penting dalam menjalin hubungan eksternal, menyusun laporan, serta mengelola sumber daya manusia. Dengan menjaga komunikasi antaranggota dan mengelola administrasi dengan baik, mereka memastikan tercapainya tujuan organisasi secara efisien dan efektif.",
     "member": [
       {
         "id" : 1,
@@ -61,7 +62,8 @@
   },
 
   "hrd": {
-    "jobdesk" : "sek hrd",
+    "name": "Human Resource Development",
+    "jobdesk" : "Divisi ini bertugas menjaga kekeluargaan di antara anggota UKM-FT EECOM, baik secara internal maupun eksternal. Dengan mempererat kerukunan dan solidaritas antara pengurus dan anggota baru, divisi ini juga menyediakan wadah bermanfaat dalam bidang keilmuan. Selain itu, divisi ini bertanggung jawab mengkoordinasi perayaan hari berdirinya UKM-FT EECOM dan berperan penting dalam pengembangan Sumber Daya Manusia anggota, sehingga memastikan setiap anggota dapat berkembang secara optimal dalam lingkungan yang harmonis dan mendukung.",
     "struktur" : "https://res.cloudinary.com/dqr9vycth/image/upload/v1724559136/eecom/divisi/hrd/Divisi_Human_Resource_Development_gjmu4x.png",
     "member": [
       {
@@ -140,7 +142,8 @@
   },
 
   "rnd": {
-    "jobdesk" : "sek rnd",
+    "name": "Research and Development",
+    "jobdesk" : "Divisi ini berkomitmen untuk menggali dan mengembangkan setiap potensi sumber daya pengurus UKM-FT EECOM, dengan fokus pada peningkatan soft skill dan penyaluran minat serta bakat di bidang bahasa Inggris. Melalui berbagai program pengembangan keterampilan dan pengetahuan, divisi ini mendukung anggota baru dan pengurus untuk mencapai kompetensi yang lebih tinggi. Selain itu, divisi ini juga bertanggung jawab melakukan pendelegasian lomba bahasa Inggris, serta menghasilkan video edukatif berbahasa Inggris. Tak hanya itu, divisi ini juga menjaga koordinasi dengan organisasi mahasiswa bahasa Inggris lainnya di UTM, memperkuat jejaring dan kolaborasi untuk mencapai tujuan bersama.",
     "struktur" : "https://res.cloudinary.com/dqr9vycth/image/upload/v1724559156/eecom/divisi/rnd/Divisi_Research_And_Development_xxduse.png",
     "member": [
       {
@@ -220,7 +223,7 @@
   },
 
   "ic": {
-    "jobdesk" : "sek ic",
+    "jobdesk" : "Divisi ini berperan sebagai penggerak utama dalam bidang informasi dan komunikasi di UKM-FT EECOM, bertugas mencari dan menyebarluaskan informasi penting serta mengelola seluruh media sosial UKM-FT EECOM. Dengan memperkuat kehadiran online melalui penambahan konten berkualitas dan pembaruan website, divisi ini memastikan penyampaian informasi menjadi lebih mudah dan efektif. Selain itu, divisi ini juga berkolaborasi dengan divisi lain untuk mempublikasikan konten edukatif yang relevan, sehingga mampu memberikan manfaat maksimal kepada seluruh member UKM-FT EECOM.",
     "struktur" : "https://res.cloudinary.com/dqr9vycth/image/upload/v1724559144/eecom/divisi/ic/Divisi_Information_and_Communication_ljfcgh.png",
     "member": [
       {
@@ -272,7 +275,8 @@
   },
 
   "entre": {
-    "jobdesk" : "sek entre",
+    "name": "Entrepreneurship",
+    "jobdesk" : "Divisi wirausaha UKM-FT EECOM berperan penting sebagai penggerak ekonomi organisasi, dengan fokus pada penciptaan dan pengelolaan usaha yang inovatif untuk memberikan pemasukan dana. Divisi ini tidak hanya mendukung keberlangsungan kegiatan UKM-FT EECOM, tetapi juga membuka peluang bagi anggota untuk mengembangkan jiwa kewirausahaan mereka, sehingga mampu berkontribusi secara nyata dalam membangun kemandirian finansial organisasi.",
     "struktur" : "https://res.cloudinary.com/dqr9vycth/image/upload/v1724553166/eecom/divisi/entre/Divisi_Entrepreneurship_ogw9pg.png",
     "member": [
       {

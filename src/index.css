@@ -72,3 +72,7 @@ html {
 .slick-slide > div {
   margin: 0 3px;
 }
+
+p {
+  text-indent: 1.5rem;
+}

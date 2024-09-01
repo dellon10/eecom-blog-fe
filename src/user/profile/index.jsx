@@ -16,21 +16,21 @@ export default function ProfileEecom() {
             <ol className="list-upper-alpha pl-4 pr-2 text-justify bold-list-alpha">
               <li className="mt-3">
                 <strong className="text-red-500">SEJARAH</strong> 
-                <p className="mt-1">
+                <p className="mt-1 ">
                 EECOM didirikan pada hari Minggu, 10 Oktober 2004 atas berkat rahmat Tuhan Yang Maha Kuasa, maka dibentuklah Unit Kegiatan Mahasiswa Fakultas Teknik <i className="text-red-600 font-semibold">“Engineering English Community”</i>. EECOM sebagai organisasi kemahasiswaan intra kampus, merupakan organisasi struktural di bawah Badan Eksekutif Mahasiswa Fakultas Teknik Universitas Trunojoyo yang menaungi segenap aktivitas mahasiswa dalam pengembangan pengetahuan dibidang Bahasa Inggris.
                 </p>
               </li>
               
               <li className="mt-3">
                 <strong className="text-red-500">VISI</strong>
-                <p className="mt-1">
+                <p className="mt-1 ">
                 Menjadi organisasi kemahasiswaan yang bergerak dibidang Bahasa Inggris di Fakultas Teknik yang cerdas, berdaya saing dan berakhlakul karimah.
                 </p>
               </li>
               
               <li className="mt-3">
                 <strong className="text-red-500">MISI</strong>
-                <p className="mt-1">
+                <p className="mt-1 ">
                 Melaksanakan kegiatan belajar dan mengajar Bahasa Inggris kepada Mahasiswa Fakultas Teknik Universitas Trunojoyo Madura untuk meningkatkan prestasi akademik dan non-akademik.
                 </p>
               </li>
@@ -50,35 +50,35 @@ export default function ProfileEecom() {
                 <ol className="list-decimal pl-4">
                   <li className="mt-2">
                     <strong className="text-red-500">Daily Manager :</strong> 
-                    <p className="mt-1">
+                    <p className="mt-1 ">
                     Daily Manager bertanggung jawab untuk mengimplementasikan kebijakan, mengelola keuangan, mengoordinasikan kegiatan, menjalin hubungan eksternal, menyusun laporan, dan mengelola sumber daya manusia member EECOM serta berperan penting dalam mencapai tujuan organisasi dan memastikan operasional harian berjalan lancar.
                     </p>
                   </li>
                   
                   <li className="mt-2">
                     <strong className="text-red-500">Human Resource Development :</strong> 
-                    <p className="mt-1">
+                    <p className="mt-1 ">
                     Divisi Human Resource Development (HRD) adalah Divisi yang fokus untuk mempererat dan menjaga kekeluargaan (internal) sekaligus melaksanakan penerimaan calon member baru UKM-FT EECOM.
                     </p>
                   </li>
                   
                   <li className="mt-2">
                     <strong className="text-red-500">Research and Development :</strong> 
-                    <p className="mt-1">
+                    <p className="mt-1 ">
                     Divisi Research and Development (RnD) adalah Divisi akademik yang berfokus dalam meningkatkan kemampuan bahasa inggris di lingkungan internal UKM-FT EECOM.
                     </p>
                   </li>
                   
                   <li className="mt-2">
                     <strong className="text-red-500">Information and Communication :</strong> 
-                    <p className="mt-1">
+                    <p className="mt-1 ">
                     Divisi Information and Communication (IC) adalah Divisi yang berfokus pada sarana publikasi, informasi dan menjaga hubungan baik dengan masyarakat umum, organisasi, dan instansi terkait.
                     </p>
                   </li>
                   
                   <li className="mt-2">
                     <strong className="text-red-500">Entrepreneurship :</strong> 
-                    <p className="mt-1">
+                    <p className="mt-1 ">
                     Divisi Entrepreneurship adalah Divisi UKM-FT EECOM yang menjadi sarana melatih jiwa entrepreneur para member, sehingga tidak hanya melatih kemampuan bahasa inggris tetapi juga jiwa kewirausahaan.
                     </p>
                   </li>
