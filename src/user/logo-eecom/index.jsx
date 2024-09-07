@@ -1,3 +1,4 @@
+import { MaintenaceComponents } from "../../global/components";
 import DeskripsiLogo from "./components/desk-logo";
 
 export default function LogoEecom() {
@@ -12,7 +13,7 @@ export default function LogoEecom() {
       </div>
 
       <div className="md:w-4/12 w-full mt-5 md:mt-0 px-2">
-        Side Card
+        <MaintenaceComponents />
       </div>
     </div>
   )

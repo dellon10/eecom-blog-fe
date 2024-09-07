@@ -1,11 +1,9 @@
 import CardDivisionComponents from "./card-org-comps";
 
+import { entreIcons, hrdIcons, icIcons, phIcons, rndIcons } from "../../../global/assets";
+
 // icons
-import phIcons from "../assets/ph.png";
-import hrdIcons from "../assets/hrd.png";
-import rndIcons from "../assets/rnd.png";
-import icIcons from "../assets/ic.png";
-import entreIcons from "../assets/entre.png";
+
 
 export default function CardDivision() {
   const divisions = [
