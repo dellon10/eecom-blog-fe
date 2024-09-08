@@ -26,10 +26,10 @@ const HeadSection = ({ idYoutube }) => {
   
 
   return (
-    <div className="flex md:flex-row flex-col justify-between py-8">
+    <div className="flex md:flex-row flex-col justify-between py-20">
 
       <div className="md:w-6/12 w-full">
-        <h1 className="text-red-600 text-7xl font-bold m-0">UKM-FT EECOM</h1>
+        <h1 className="text-red-600 text-7xl font-bold">UKM-FT EECOM</h1>
         <h1 className="text-red-600 text-4xl font-bold">ENGINEERING ENGLISH COMMUNITY</h1>
 
         <motion.div
@@ -65,14 +65,13 @@ const HeadSection = ({ idYoutube }) => {
         </div>
 
 
-
       </div>
 
       <div className="flex md:w-6/12 w-full md:ps-10 justify-center items-center">
         <iframe 
           className="h-80 w-full rounded-xl border-4 border-red-600"
           src={`https://www.youtube.com/embed/${idYoutube}`}
-          title="YouTube video player" 
+          title="Video Player YouTube" 
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerPolicy="strict-origin-when-cross-origin" 

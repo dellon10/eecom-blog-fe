@@ -27,6 +27,8 @@ export default {
       'none' : 'none',
       'decimal' : 'decimal',
       'upper-alpha' : 'upper-alpha',
+      'disc' : 'disc',
+      'lower-alpha' : 'lower-alpha',
     }
   },
   plugins: [

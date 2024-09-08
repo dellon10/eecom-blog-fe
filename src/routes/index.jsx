@@ -9,6 +9,7 @@ import ProfileEecom from "../user/profile"
 import LogoEecom from "../user/logo-eecom"
 import StrukturOrganisasi from "../user/struktur-organisasi"
 import DivisionPage from "../user/divisi"
+import InformationsPage from "../user/information"
 
 
 const router = createBrowserRouter([
@@ -89,6 +90,17 @@ const router = createBrowserRouter([
         <NotFoundPage />
       </>
     )
+  },
+  {
+    path : "/informations/announcements/bee/2024",
+    element : (
+      <>
+        <NavbarComponent />
+        <JumbotronComponent textPage="ANNOUNCEMENTS" />
+        <InformationsPage />
+        <FooterComponent />
+      </>
+    ) 
   }
 ])
 
