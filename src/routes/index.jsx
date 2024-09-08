@@ -92,7 +92,7 @@ const router = createBrowserRouter([
     )
   },
   {
-    path : "/informations/announcements/bee/2024",
+    path : "/informations/announcements/bee/assignment-tm1-bee-2024",
     element : (
       <>
         <NavbarComponent />
