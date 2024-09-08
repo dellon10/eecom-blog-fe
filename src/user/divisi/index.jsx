@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { FooterComponent, JumbotronComponent, NavbarComponent } from "../../global/components";
+import { FooterComponent, JumbotronComponent, MaintenaceComponents, NavbarComponent } from "../../global/components";
 import NotFoundPage from "../../global/pages/404";
 
 import "slick-carousel/slick/slick.css";
@@ -64,7 +64,10 @@ export default function DivisionPage() {
         </div>
 
         <div className="md:w-4/12 w-full mt-5 md:mt-0 px-2">
-          Side Card
+          <div className="">
+            <h1 className="text-center font-semibold">Latest Information</h1>
+          </div>
+          <MaintenaceComponents />
         </div>
       </div>
 

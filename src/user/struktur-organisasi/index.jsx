@@ -1,5 +1,6 @@
 import ImageStrukturOrganisasi from "./components/image-control";
 import CardDivision from "./components/card-division";
+import { MaintenaceComponents } from "../../global/components";
 
 export default function StrukturOrganisasi() {
   return (
@@ -22,7 +23,10 @@ export default function StrukturOrganisasi() {
       </div>
 
       <div className="md:w-4/12 w-full mt-5 md:mt-0 px-2">
-        Side Card
+        <div className="">
+          <h1 className="text-center font-semibold">Latest Information</h1>
+        </div>
+        <MaintenaceComponents />
       </div>
     </div>
   )
