@@ -16,18 +16,18 @@ export default function InformationsPage() {
               <ul className="list-disc pl-6 list-disc-marker">
                 <li>
                   Follow instagram {" "}
-                  <Link to={""} className="font-semibold text-red-600 hover:text-blue-700">@ukmfteecom</Link>, {" "} 
-                  <Link to={""} className="font-semibold text-red-600 hover:text-blue-700">@bee.eecom</Link>, dan LO masing-masing
+                  <Link to={"https://www.instagram.com/ukmfteecom/"} className="font-semibold text-red-600 hover:text-blue-700 underline hover:no-underline">@ukmfteecom</Link>, {" "} 
+                  <Link to={"https://www.instagram.com/bee.eecom/"} className="font-semibold text-red-600 hover:text-blue-700 underline hover:no-underline">@bee.eecom</Link>, dan LO masing-masing
                 </li>
                 <li>
                   Follow tiktok {" "}
-                  <Link to={""} className="font-semibold text-red-600 hover:text-blue-700">
+                  <Link to={"https://www.tiktok.com/@ukmfteecom"} className="font-semibold text-red-600 hover:text-blue-700 underline hover:no-underline">
                     @ukmfteecom
                   </Link>
                 </li>
                 <li>
                   Subscribe Youtube {" "}
-                  <Link to={""} className="font-semibold text-red-600 hover:text-blue-700">
+                  <Link to={"https://www.youtube.com/@UKMFTEECOM"} className="font-semibold text-red-600 hover:text-blue-700 underline hover:no-underline">
                     UKM-FT EECOM
                   </Link>
                 </li>
@@ -48,7 +48,13 @@ export default function InformationsPage() {
 
               <ul className="list-disc pl-6 list-disc-marker">
                 <li>
-                Foto twibbon semi formal background merah maroon (<span className="font-semibold text-white" style={{background : "#611D20"}}>#611D20</span>)
+                  Download {" "}
+                  <Link to={"https://drive.google.com/file/d/1c6IG103kWa-XYYY0GdPyVvYq77O1fqZt/view?usp=drivesdk"} className="font-semibold text-red-600 hover:text-blue-700 underline hover:no-underline">
+                    Twibbon BEE 2024
+                  </Link>
+                </li>
+                <li>
+                  Foto twibbon semi formal background merah maroon (<span className="font-semibold text-white" style={{background : "#611D20"}}>#611D20</span>)
                 </li>
                 <li>
                   Video perkenalan minimal 1 menit dengan ketentuan sebagai berikut :
@@ -56,8 +62,8 @@ export default function InformationsPage() {
                   <ul className="list-lower-alpha pl-6">
                     <li>
                       Wajib ada {" "}
-                      <Link to={""} className="font-semibold text-red-600 hover:text-blue-700">Logo BEE 2024</Link> dan {" "}
-                      <Link to={""} className="font-semibold text-red-600 hover:text-blue-700 underline hover:no-underline">Logo EECOM</Link> di video
+                      <Link to={"https://drive.google.com/file/d/1c8V_e4-T3cXKjjmQFUQmlSggUduvwi4m/view?usp=drivesdk"} className="font-semibold text-red-600 hover:text-blue-700 underline hover:no-underline">Logo BEE 2024</Link> dan {" "}
+                      <Link to={"https://drive.google.com/file/d/1c8tWlkXFZ-baMD6ZjvTm3BHjdfjioiAZ/view?usp=drivesdk"} className="font-semibold text-red-600 hover:text-blue-700 underline hover:no-underline">Logo EECOM</Link> di video
                     </li>
                     <li> Nama </li>
                     <li> Program Studi </li>
@@ -73,13 +79,13 @@ export default function InformationsPage() {
                   
                 <li> Twibbon dan video diupload di Instagram dan tiktok </li>
                 <li> Mention akun Instagram {" "}
-                  <Link to={""} className="font-semibold text-red-600 hover:text-blue-700">@ukmfteecom</Link>, {" "} 
-                  <Link to={""} className="font-semibold text-red-600 hover:text-blue-700">@bee.eecom</Link>, dan LO masing-masing
+                  <Link to={"https://www.instagram.com/ukmfteecom/"} className="font-semibold text-red-600 hover:text-blue-700 underline hover:no-underline">@ukmfteecom</Link>, {" "} 
+                  <Link to={"https://www.instagram.com/bee.eecom/"} className="font-semibold text-red-600 hover:text-blue-700 underline hover:no-underline">@bee.eecom</Link>, dan LO masing-masing
                 </li>
 
                 <li>
                   Mention akun tiktok {" "}
-                  <Link to={""} className="font-semibold text-red-600 hover:text-blue-700">
+                  <Link to={"https://www.tiktok.com/@ukmfteecom"} className="font-semibold text-red-600 hover:text-blue-700 underline hover:no-underline">
                     @ukmfteecom
                   </Link>
                 </li>
@@ -151,7 +157,7 @@ export default function InformationsPage() {
         </div>
       </div>
 
-      <div className="md:w-4/12 w-full mt-5 md:mt-0 px-2">
+      <div className="md:w-4/12 w-full mt-5 md:mt-0 px-2 hidden md:block">
         <MaintenaceComponents />
       </div>
     </div>
