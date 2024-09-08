@@ -1,6 +1,6 @@
 export default function FunActivitySection() {
   return (
-    <section className="py-20">
+    <section className="py-20 hidden">
       <h1 className="text-center w-full text-4xl font-bold">FUN ACTIVITIES</h1>
 
       <div className="flex flex-row justify-center items-center mt-5">

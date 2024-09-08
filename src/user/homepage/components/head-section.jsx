@@ -26,11 +26,11 @@ const HeadSection = ({ idYoutube }) => {
   
 
   return (
-    <div className="flex md:flex-row flex-col justify-between py-20">
+    <div className="flex md:flex-row flex-col justify-between py-7 md:py-20">
 
       <div className="md:w-6/12 w-full">
-        <h1 className="text-red-600 text-7xl font-bold">UKM-FT EECOM</h1>
-        <h1 className="text-red-600 text-4xl font-bold">ENGINEERING ENGLISH COMMUNITY</h1>
+        <h1 className="text-red-600 text-5xl md:text-6xl font-bold">UKM-FT EECOM</h1>
+        <h1 className="text-red-600 text-xl md:text-3xl font-bold">ENGINEERING ENGLISH COMMUNITY</h1>
 
         <motion.div
           variants={fadeInOutVariants}
@@ -42,11 +42,11 @@ const HeadSection = ({ idYoutube }) => {
         >
           {showText ? 
             (
-              <h5 className="mt-5 text-justify font-medium">
+              <h5 className="mt-2 md:mt-5 text-justify text-sm md:text-base font-medium">
                 Selamat Datang di Website UKM-FT EECOM, Unit Kegiatan Mahasiswa Fakultas Teknik yang Mengasah Minat Bahasa Inggris dengan Cara Seru dan Menyenangkan. Temukan Pengalaman Belajar yang Penuh Keceriaan dan Jadilah Bagian dari Kami yang Selalu Mengutamakan <span className="font-extrabold text-red-600">Be Enjoy, Be Happy!</span>
               </h5>
             ) : (
-              <h5 className="mt-5 text-justify font-medium">
+              <h5 className="mt-2 md:mt-5 text-justify text-sm md:text-base font-medium">
                 Welcome to the UKM-FT EECOM Website, the Student Activity Unit of the Faculty of Engineering that Sharpens English Interests in a Fun and Enjoyable Way. Discover a Learning Experience Full of Joy and Become Part of Us Who Always Prioritize <span className="font-extrabold text-red-600">Be Enjoy, Be Happy!</span>
               </h5>
             )}
@@ -69,7 +69,7 @@ const HeadSection = ({ idYoutube }) => {
 
       <div className="flex md:w-6/12 w-full md:ps-10 justify-center items-center">
         <iframe 
-          className="h-80 w-full rounded-xl border-4 border-red-600"
+          className="md:h-80 h-64 w-full rounded-xl border-4 border-red-600"
           src={`https://www.youtube.com/embed/${idYoutube}`}
           title="Video Player YouTube" 
           frameBorder="0"

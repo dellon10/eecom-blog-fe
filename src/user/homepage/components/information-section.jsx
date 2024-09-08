@@ -2,8 +2,8 @@ import { MaintenaceComponents } from "../../../global/components";
 
 export default function InformationSection() {
   return (
-    <section className="py-20">
-      <h1 className="text-center w-full text-4xl font-bold">OUR INFORMATIONS</h1>
+    <section className="py-7 md:py-20">
+      <h1 className="text-center w-full text-2xl md:text-4xl font-bold">OUR INFORMATIONS</h1>
 
       <MaintenaceComponents />
       
