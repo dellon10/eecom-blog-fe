@@ -2,11 +2,11 @@ import { entreIcons, hrdIcons, icIcons, rndIcons } from "../../../global/assets"
 
 export default function DivisionSection() {
   return (
-    <section className="py-7 md:py-20">
+    <section className="bg-slate-200 md:px-10 px-4 py-7 md:py-20">
       <h1 className="w-full text-center text-2xl md:text-4xl font-bold">EECOM DIVISIONS</h1>
       
       <div>
-        <h4 className="text-center md:text-base text-sm md:px-44 mt-5">
+        <h4 className="text-center md:text-base text-sm md:px-40 mt-5">
           Pada Periode Tahun 2024, UKM-FT EECOM memiliki 4 divisi dengan berbagai macam agenda dan program kerja pada masing-masing divisi dengan tujuan agar tercapainya visi dan misi UKM-FT EECOM di Periode ini.
         </h4>
       </div>
@@ -25,7 +25,7 @@ export default function DivisionSection() {
             </div>
           </div>
 
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row items-center md:mt-0 mt-2">
             <div>
               <img src={icIcons} alt="logo-eecom" className="w-24 h-auto"/>
             </div>
@@ -43,7 +43,7 @@ export default function DivisionSection() {
         </div>
       
         <div className="md:w-4/12 flex flex-col md:justify-around">
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row items-center md:mt-0 mt-2">
             <div>
               <img src={rndIcons} alt="logo-eecom" className="w-32 h-auto" />
             </div>
@@ -55,7 +55,7 @@ export default function DivisionSection() {
             </div>
           </div>
 
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row items-center md:mt-0 mt-2">
             <div>
               <img src={entreIcons} alt="logo-eecom" className="w-32 h-auto"/>
             </div>

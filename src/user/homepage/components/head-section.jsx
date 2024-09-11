@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { BsInstagram, BsTiktok, BsYoutube } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import bgHead from "../assets/head-background.png";
 
 const HeadSection = ({ idYoutube }) => {
 
@@ -26,8 +27,15 @@ const HeadSection = ({ idYoutube }) => {
   
 
   return (
-    <div className="flex md:flex-row flex-col justify-between py-7 md:py-20">
-
+    <section 
+      className="flex md:flex-row flex-col justify-between py-7 md:py-20 md:h-svh bg-white md:px-10 px-4" 
+      style={{
+        backgroundImage: `url(${bgHead})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+      }}
+    >
       <div className="md:w-6/12 w-full">
         <h1 className="text-red-600 text-5xl md:text-6xl font-bold">UKM-FT EECOM</h1>
         <h1 className="text-red-600 text-xl md:text-3xl font-bold">ENGINEERING ENGLISH COMMUNITY</h1>
@@ -67,9 +75,9 @@ const HeadSection = ({ idYoutube }) => {
 
       </div>
 
-      <div className="flex md:w-6/12 w-full md:ps-10 justify-center items-center">
+      <div className="flex md:w-6/12 w-full md:ps-10 justify-center items-center mt-5 md:mt-0">
         <iframe 
-          className="md:h-80 h-64 w-full rounded-xl border-4 border-red-600"
+          className="xl:h-96 h-60 w-full rounded-xl border-4 border-red-600"
           src={`https://www.youtube.com/embed/${idYoutube}`}
           title="Video Player YouTube" 
           frameBorder="0"
@@ -81,7 +89,7 @@ const HeadSection = ({ idYoutube }) => {
 
       </div>
 
-    </div>
+    </section>
   );
 }
 

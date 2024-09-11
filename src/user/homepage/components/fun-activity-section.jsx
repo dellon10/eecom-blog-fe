@@ -1,19 +1,45 @@
 export default function FunActivitySection() {
   return (
-    <section className="py-20 hidden">
-      <h1 className="text-center w-full text-4xl font-bold">FUN ACTIVITIES</h1>
+    <section className="py-20 bg-gray-100">
+      <h1 className="text-center w-full text-4xl font-bold mb-10">FUN ACTIVITY</h1>
 
-      <div className="flex flex-row justify-center items-center mt-5">
-        <div className="flex flex-col items-center me-5">
-          <img src="/eecom-logo.png" alt="logo-eecom" className="h-80 w-auto" />
-          <h1 className="text-red-600 text-lg font-bold mt-3">EECOM Logo</h1>
+      <div className="grid grid-cols-2 gap-8 max-w-6xl mx-auto">
+        {/* First block */}
+        <div className="flex bg-gray-300 rounded-lg p-6">
+          <div className="w-2/3">
+            <h2 className="text-lg font-bold mb-2">Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div className="w-1/3 bg-gray-400 rounded ml-4"></div>
         </div>
 
-        <div className="flex flex-col items-center">
-          <img src="/eecom-logo.png" alt="logo-eecom" className="h-80 w-auto" />
-          <h1 className="text-red-600 text-lg font-bold mt-3">EECOM Logo</h1>
+        {/* Second block */}
+        <div className="flex bg-gray-300 rounded-lg p-6">
+          <div className="w-2/3">
+            <h2 className="text-lg font-bold mb-2">Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div className="w-1/3 bg-gray-400 rounded ml-4"></div>
+        </div>
+
+        {/* Third block */}
+        <div className="flex bg-gray-300 rounded-lg p-6">
+          <div className="w-2/3">
+            <h2 className="text-lg font-bold mb-2">Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div className="w-1/3 bg-gray-400 rounded ml-4"></div>
+        </div>
+
+        {/* Fourth block */}
+        <div className="flex bg-gray-300 rounded-lg p-6">
+          <div className="w-2/3">
+            <h2 className="text-lg font-bold mb-2">Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div className="w-1/3 bg-gray-400 rounded ml-4"></div>
         </div>
       </div>
-    </section>    
-  )
+    </section>
+  );
 }

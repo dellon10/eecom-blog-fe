@@ -6,15 +6,13 @@ import InformationSection from "./components/information-section";
 export default function HomePage() {
   return ( 
     <>
-      <section className="bg-white md:px-10 px-4">
-        <HeadSection idYoutube="ckIYNQmI_Mk?si=E6KGINJnQjtKNOJr"/>
+      <HeadSection idYoutube="ckIYNQmI_Mk?si=E6KGINJnQjtKNOJr"/>
 
-        <DivisionSection />
+      <DivisionSection />
 
-        <InformationSection />
+      <InformationSection />
 
-        <FunActivitySection />
-      </section>
+      <FunActivitySection />
     </>
   )
 }
