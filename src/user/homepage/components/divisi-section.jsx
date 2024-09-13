@@ -48,7 +48,7 @@ export default function DivisionSection() {
               <img src={rndIcons} alt="logo-eecom" className="w-32 h-auto" />
             </div>
             <div className="ms-3">
-              <h1 className="text-red-600 text-base md:text-lg font-bold">Resource and Development</h1>
+              <h1 className="text-red-600 text-base md:text-lg font-bold">Research and Development</h1>
               <h5 className="text-sm md:text-base text-justify">
                 Bergerak untuk meningkatkan dan menggali setiap potensi sumberdaya pengurus UKM-FT EECOM.
               </h5>

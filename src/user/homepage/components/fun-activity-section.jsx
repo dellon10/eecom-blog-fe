@@ -1,44 +1,48 @@
 export default function FunActivitySection() {
   return (
-    <section className="py-20 bg-gray-100">
-      <h1 className="text-center w-full text-4xl font-bold mb-10">FUN ACTIVITY</h1>
+    <section className="bg-red-500 md:px-10 px-4 py-7 md:py-20">
+      <h1 className="text-white text-center w-full text-4xl font-bold mb-10">FUN ACTIVITY</h1>
 
-      <div className="grid grid-cols-2 gap-8 max-w-6xl mx-auto">
-        {/* First block */}
-        <div className="flex bg-gray-300 rounded-lg p-6">
-          <div className="w-2/3">
-            <h2 className="text-lg font-bold mb-2">Lorem Ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div className="flex flex-col">
+        {/* card-atas */}
+        
+        <div className="flex flex-col md:flex-row md:justify-between md:gap-3">
+          <div className="flex flex-row bg-white p-20 md:w-3/5 w-full rounded-lg justify-between">
+            <div className="flex flex-col">
+              <h1 className="font-bold">Lorem</h1>
+              <h5>Lorem</h5>
+            </div>
+            <div>
+              <h1>Lorem</h1>
+            </div>
           </div>
-          <div className="w-1/3 bg-gray-400 rounded ml-4"></div>
+
+          <div className="flex flex-col bg-white p-20 md:w-2/5 md:mt-0 mt-3 w-full rounded-lg justify-between">
+            <div>
+
+            </div>
+
+            <div className="flex flex-col">
+              <h1 className="font-bold">Lorem</h1>
+              <h5>Lorem</h5>
+            </div>
+          </div>
         </div>
 
-        {/* Second block */}
-        <div className="flex bg-gray-300 rounded-lg p-6">
-          <div className="w-2/3">
-            <h2 className="text-lg font-bold mb-2">Lorem Ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div className="w-1/3 bg-gray-400 rounded ml-4"></div>
+
+        {/* card-bawah */}
+
+        <div className="flex flex-col md:flex-row md:justify-between md:gap-3 mt-3">
+            <div className="bg-white p-20 md:w-2/5 w-full rounded-lg">
+            
+            </div>
+  
+            <div className="bg-white p-20 md:w-3/5 md:mt-0 mt-3 w-full rounded-lg">
+  
+            </div>
+
         </div>
 
-        {/* Third block */}
-        <div className="flex bg-gray-300 rounded-lg p-6">
-          <div className="w-2/3">
-            <h2 className="text-lg font-bold mb-2">Lorem Ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div className="w-1/3 bg-gray-400 rounded ml-4"></div>
-        </div>
-
-        {/* Fourth block */}
-        <div className="flex bg-gray-300 rounded-lg p-6">
-          <div className="w-2/3">
-            <h2 className="text-lg font-bold mb-2">Lorem Ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div className="w-1/3 bg-gray-400 rounded ml-4"></div>
-        </div>
       </div>
     </section>
   );
