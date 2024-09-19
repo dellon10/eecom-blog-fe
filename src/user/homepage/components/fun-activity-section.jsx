@@ -2,7 +2,7 @@ import mdPhoto from "../assets/maroon-day.jpg";
 
 export default function FunActivitySection() {
   return (
-    <section className="bg-red-500 md:px-24 px-4 py-7 md:py-20">
+    <section className="bg-red-500 md:px-24 px-4 py-7 md:py-20 hidden">
       <h1 className="text-white text-center w-full text-4xl font-bold mb-10">FUN ACTIVITY</h1>
 
       <div className="flex flex-col">
