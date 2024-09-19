@@ -11,6 +11,7 @@ import StrukturOrganisasi from "../user/struktur-organisasi"
 import DivisionPage from "../user/divisi"
 import InformationsPage from "../user/information"
 import StudyClubOne from "../user/information/pages/announcements/bee/assignment-sc1"
+import StudyClubOneDayTwo from "../user/information/pages/announcements/bee/assignment-sc2"
 
 
 const router = createBrowserRouter([
@@ -110,6 +111,17 @@ const router = createBrowserRouter([
         <NavbarComponent />
         <JumbotronComponent textPage="ANNOUNCEMENTS" />
         <StudyClubOne />
+        <FooterComponent />
+      </>
+    ) 
+  },
+  {
+    path : "/informations/announcements/bee/assignment-sc1day2-bee-2024",
+    element : (
+      <>
+        <NavbarComponent />
+        <JumbotronComponent textPage="ANNOUNCEMENTS" />
+        <StudyClubOneDayTwo />
         <FooterComponent />
       </>
     ) 
