@@ -6,7 +6,7 @@ export default function StudyClubOneDayTwo() {
     <div className="flex flex-col md:flex-row min-h-screen px-3 mt-3 bg-white py-4">
       <div className="md:w-8/12 w-full px-2">
         <h1 className="font-bold md:text-2xl mb-3">
-          ASSIGNMENT STUDY CLUB 1 Day 2 OF BEE 2024
+          ASSIGNMENT STUDY CLUB 1 DAY 2 OF BEE 2024
         </h1>
         <div className="text-sm md:text-base md:pl-3">
           <ol className="list-decimal pl-4 pr-2 text-justify bold-list-decimal">
