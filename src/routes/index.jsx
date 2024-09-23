@@ -12,6 +12,7 @@ import DivisionPage from "../user/divisi"
 import InformationsPage from "../user/information"
 import StudyClubOneDayOne from "../user/information/pages/announcements/bee/assignment-sc1-day1"
 import StudyClubOneDayTwo from "../user/information/pages/announcements/bee/assignment-sc1-day2"
+import StudyClubTwoDayOne from "../user/information/pages/announcements/bee/assignment-sc2-day1"
 
 
 const router = createBrowserRouter([
@@ -105,7 +106,7 @@ const router = createBrowserRouter([
     ) 
   },
   {
-    path : "/informations/announcements/bee/assignment-sc1-bee-2024",
+    path : "/informations/announcements/bee/assignment-sc1day1-bee-2024",
     element : (
       <>
         <NavbarComponent />
@@ -125,7 +126,19 @@ const router = createBrowserRouter([
         <FooterComponent />
       </>
     ) 
-  }
+  },
+  {
+    path : "/informations/announcements/bee/assignment-sc2day1-bee-2024",
+    element : (
+      <>
+        <NavbarComponent />
+        <JumbotronComponent textPage="ANNOUNCEMENTS" />
+        <StudyClubTwoDayOne />
+        <FooterComponent />
+      </>
+    ) 
+  },
+
 ])
 
 export default router
