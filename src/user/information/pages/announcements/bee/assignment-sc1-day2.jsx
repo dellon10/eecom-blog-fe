@@ -43,7 +43,7 @@ export default function StudyClubOneDayTwo() {
                   Penugasan tidak boleh dihapus hingga rentetan BEE 2024 berakhir, pada <span className="font-bold">6 Oktober 2024</span>
                 </li>
                 <li>
-                  Maksimal di upload <span className="font-bold text-red-600">pukul 15.00 pada 20 september 2024</span>
+                  Maksimal di upload <span className="font-bold text-red-600">pukul 15.00 pada 20 September 2024</span>
                 </li>
                 <li>
                   Video diberi Logo EECOM dan Logo BEE. Logo EECOM disebelah kiri atas pojok dan logo BEE disebelah kanan atas pojok

@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 import { MaintenaceComponents } from "../../../../../global/components";
 
-export default function StudyClubOne() {
+export default function StudyClubTwoDayOne() {
   return (
     <div className="flex flex-col md:flex-row min-h-screen px-3 mt-3 bg-white py-4">
       <div className="md:w-8/12 w-full px-2">
         <h1 className="font-bold md:text-2xl mb-3">
-          ASSIGNMENT STUDY CLUB 1 OF BEE 2024
+          ASSIGNMENT STUDY CLUB 2 DAY 1 OF BEE 2024
         </h1>
         <div className="text-sm md:text-base md:pl-3">
           <ol className="list-decimal pl-4 pr-2 text-justify bold-list-decimal">
             <li className="mt-3">
-              <strong className="text-red-500">ASSIGNMENT OF STUDY CLUB 1</strong>
+              <strong className="text-red-500">ASSIGNMENT OF STUDY CLUB 2 DAY 1</strong>
 
               <ul className="list-disc pl-6 list-disc-marker">
                 <li>
@@ -43,7 +43,7 @@ export default function StudyClubOne() {
                   Penugasan tidak boleh dihapus hingga rentetan BEE 2024 berakhir, pada <span className="font-bold">6 Oktober 2024</span>
                 </li>
                 <li>
-                  Maksimal di upload <span className="font-bold text-red-600">pukul 15.00 pada 19 september 2024</span>
+                  Maksimal di upload <span className="font-bold text-red-600">pukul 18.00 pada 24 September 2024</span>
                 </li>
                 <li>
                   Video diberi Logo EECOM dan Logo BEE. Logo EECOM disebelah kiri atas pojok dan logo BEE disebelah kanan atas pojok
