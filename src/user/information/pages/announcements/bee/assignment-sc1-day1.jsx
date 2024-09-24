@@ -54,15 +54,16 @@ export default function StudyClubOneDayOne() {
             <li className="mt-3">
               <strong className="text-red-500">CAPTION VIDEO :</strong>
 
-              <h6>Nama, Prodi, Judul resume materi</h6>
+              <p>Nama, Prodi, Judul resume materi</p>
               <br />
-              <h6>
+              <p>
                 IG : @ukmfteecom <br />
                 TWITTER : @ukmfteecom <br />
                 YOUTUBE : UKM-FT EECOM <br />
                 WEB : ukmfteecom.vercel.app
-              </h6>
-              <h6 className="mt-5">
+              </p>
+              <br />
+              <p>
                 #BEE2024 <br />
                 #EECOM2024 <br />
                 #ElevateAsOneRadiateForEternity <br />
@@ -70,7 +71,7 @@ export default function StudyClubOneDayOne() {
                 #BEEECOM <br />
                 #BEENJOY <br />
                 #BEHAPPY
-              </h6>
+              </p>
             </li>
             
           </ol>

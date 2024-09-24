@@ -50,13 +50,13 @@ const HeadSection = ({ idYoutube }) => {
         >
           {showText ? 
             (
-              <h5 className="text-white mt-2 md:mt-5 text-justify text-sm md:text-base font-medium">
+              <p className="text-white mt-2 md:mt-5 text-justify text-sm md:text-base font-medium">
                 Selamat Datang di Website UKM-FT EECOM, Unit Kegiatan Mahasiswa Fakultas Teknik yang Mengasah Minat Bahasa Inggris dengan Cara Seru dan Menyenangkan. Temukan Pengalaman Belajar yang Penuh Keceriaan dan Jadilah Bagian dari Kami yang Selalu Mengutamakan <span className="font-extrabold">Be Enjoy, Be Happy!</span>
-              </h5>
+              </p>
             ) : (
-              <h5 className="text-white mt-2 md:mt-5 text-justify text-sm md:text-base font-medium">
+              <p className="text-white mt-2 md:mt-5 text-justify text-sm md:text-base font-medium">
                 Welcome to the UKM-FT EECOM Website, the Student Activity Unit of the Faculty of Engineering that Sharpens English Interests in a Fun and Enjoyable Way. Discover a Learning Experience Full of Joy and Become Part of Us Who Always Prioritize <span className="font-extrabold">Be Enjoy, Be Happy!</span>
-              </h5>
+              </p>
             )}
 
         </motion.div>

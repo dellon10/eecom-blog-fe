@@ -79,6 +79,6 @@ html {
   margin: 0 3px;
 }
 
-p {
+.text-paragraph {
   text-indent: 1.5rem;
 }

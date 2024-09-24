@@ -6,9 +6,9 @@ export default function DivisionSection() {
       <h1 className="w-full text-center text-2xl md:text-4xl font-bold">EECOM DIVISIONS</h1>
       
       <div>
-        <h4 className="text-center md:text-base text-sm md:px-40 mt-5">
+        <p className="text-center md:text-base text-sm md:px-40 mt-5">
           Pada Periode Tahun 2024, UKM-FT EECOM memiliki 4 divisi dengan berbagai macam agenda dan program kerja pada masing-masing divisi dengan tujuan agar tercapainya visi dan misi UKM-FT EECOM di Periode ini.
-        </h4>
+        </p>
       </div>
       
       <div className="flex md:flex-row flex-col justify-between mt-3">
@@ -19,9 +19,9 @@ export default function DivisionSection() {
             </div>
             <div className="ms-3">
               <h1 className="text-red-600 text-base md:text-lg font-bold">Human Resource Development</h1>
-              <h5 className="text-sm md:text-base text-justify">
+              <polyline className="text-sm md:text-base text-justify">
                 Berperan untuk menjaga kekeluargaan anggota UKM-FT EECOM baik internal maupun ekstetrnal.
-              </h5>
+              </polyline>
             </div>
           </div>
 
@@ -31,9 +31,9 @@ export default function DivisionSection() {
             </div>
             <div className="ms-3">
               <h1 className="text-red-600 text-base md:text-lg font-bold">Information and Communication</h1>
-              <h5 className="text-sm md:text-base text-justify">
+              <p className="text-sm md:text-base text-justify">
                 Bergerak di bidang informasi dan komunikasi serta sosial media UKM-FT EECOM.
-              </h5>
+              </p>
             </div>
           </div>
         </div>
@@ -49,9 +49,9 @@ export default function DivisionSection() {
             </div>
             <div className="ms-3">
               <h1 className="text-red-600 text-base md:text-lg font-bold">Research and Development</h1>
-              <h5 className="text-sm md:text-base text-justify">
+              <p className="text-sm md:text-base text-justify">
                 Bergerak untuk meningkatkan dan menggali setiap potensi sumberdaya pengurus UKM-FT EECOM.
-              </h5>
+              </p>
             </div>
           </div>
 
@@ -61,9 +61,9 @@ export default function DivisionSection() {
             </div>
             <div className="ms-3">
               <h1 className="text-red-600 text-base md:text-lg font-bold">Entrepreneurship</h1>
-              <h5 className="text-sm md:text-base text-justify">
+              <p className="text-sm md:text-base text-justify">
                 Bergerak di bidang wirausaha UKM-FT EECOM. Memberikan pemasukan dana kepada UKM-FT EECOM.
-              </h5>
+              </p>
             </div>
           </div>
         </div>
