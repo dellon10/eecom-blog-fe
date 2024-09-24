@@ -13,6 +13,7 @@ import InformationsPage from "../user/information"
 import StudyClubOneDayOne from "../user/information/pages/announcements/bee/assignment-sc1-day1"
 import StudyClubOneDayTwo from "../user/information/pages/announcements/bee/assignment-sc1-day2"
 import StudyClubTwoDayOne from "../user/information/pages/announcements/bee/assignment-sc2-day1"
+import StudyClubTwoDayTwo from "../user/information/pages/announcements/bee/assignment-sc2-day2"
 
 
 const router = createBrowserRouter([
@@ -134,6 +135,17 @@ const router = createBrowserRouter([
         <NavbarComponent />
         <JumbotronComponent textPage="ANNOUNCEMENTS" />
         <StudyClubTwoDayOne />
+        <FooterComponent />
+      </>
+    ) 
+  },
+  {
+    path : "/informations/announcements/bee/assignment-sc2day2-bee-2024",
+    element : (
+      <>
+        <NavbarComponent />
+        <JumbotronComponent textPage="ANNOUNCEMENTS" />
+        <StudyClubTwoDayTwo />
         <FooterComponent />
       </>
     ) 

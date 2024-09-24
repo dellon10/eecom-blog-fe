@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { MaintenaceComponents } from "../../../../../global/components";
 
-export default function StudyClubTwoDayOne() {
+export default function StudyClubTwoDayTwo() {
   return (
     <div className="flex flex-col md:flex-row min-h-screen px-3 mt-3 bg-white py-4">
       <div className="md:w-8/12 w-full px-2">
