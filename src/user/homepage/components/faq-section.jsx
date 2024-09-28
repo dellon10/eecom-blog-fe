@@ -9,7 +9,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="bg-white md:px-10 px-4 py-7 md:py-20">
+    <section className="bg-white md:px-10 px-4 py-7 md:py-20 hidden">
       <h1 className="w-full text-center text-2xl md:text-4xl font-bold">
         FREQUENTLY ASKED QUESTION
       </h1>
