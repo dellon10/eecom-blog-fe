@@ -132,6 +132,9 @@ export default function TechnicalMeetingTwo() {
                   Stop kontak minimal 2 meter (2)
                 </li>
                 <li>
+                  Trashbag (3)
+                </li>
+                <li>
                   Kresek Besar (2)
                 </li>
                 <li>
