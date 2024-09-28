@@ -14,6 +14,7 @@ import StudyClubOneDayOne from "../user/information/pages/announcements/bee/assi
 import StudyClubOneDayTwo from "../user/information/pages/announcements/bee/assignment-sc1-day2"
 import StudyClubTwoDayOne from "../user/information/pages/announcements/bee/assignment-sc2-day1"
 import StudyClubTwoDayTwo from "../user/information/pages/announcements/bee/assignment-sc2-day2"
+import TechnicalMeetingTwo from "../user/information/pages/announcements/bee/assignment-tm2"
 
 
 const router = createBrowserRouter([
@@ -102,6 +103,17 @@ const router = createBrowserRouter([
         <NavbarComponent />
         <JumbotronComponent textPage="ANNOUNCEMENTS" />
         <InformationsPage />
+        <FooterComponent />
+      </>
+    ) 
+  },
+  {
+    path : "/informations/announcements/bee/assignment-tm2-bee-2024",
+    element : (
+      <>
+        <NavbarComponent />
+        <JumbotronComponent textPage="ANNOUNCEMENTS" />
+        <TechnicalMeetingTwo />
         <FooterComponent />
       </>
     ) 
