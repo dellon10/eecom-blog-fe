@@ -9,7 +9,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="bg-white md:px-10 px-4 py-7 md:py-20 hidden">
+    <section className="bg-white md:px-10 px-4 py-7 md:py-20">
       <h1 className="w-full text-center text-2xl md:text-4xl font-bold">
         FREQUENTLY ASKED QUESTION
       </h1>
@@ -35,7 +35,7 @@ export default function FAQSection() {
                 aria-expanded={openAccordion === 1 ? 'true' : 'false'}
                 onClick={() => toggleAccordion(1)}
               >
-                <span>What is Flowbite?</span>
+                <span>Apakah Kegiatan di UKM-FT EECOM Selalu Bahasa Inggris?</span>
                 <svg
                   data-accordion-icon
                   className={`w-3 h-3 ${openAccordion === 1 ? '' : 'rotate-180'} shrink-0`}
@@ -62,18 +62,8 @@ export default function FAQSection() {
               aria-labelledby="accordion-flush-heading-1"
             >
               <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                <p className="mb-2 text-gray-500 dark:text-gray-400">
-                  Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.
-                </p>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Check out this guide to learn how to{' '}
-                  <a
-                    href="/docs/getting-started/introduction/"
-                    className="text-blue-600 dark:text-blue-500 hover:underline"
-                  >
-                    get started
-                  </a>{' '}
-                  and start developing websites even faster with components on top of Tailwind CSS.
+                <p className="mb-2 text-gray-500 dark:text-gray-400 text-justify">
+                Kegiatan UKM-FT EECOM tidak sepenuhnya selalu menggunakan bahasa Inggris. Meskipun tujuan utama adalah untuk meningkatkan kemampuan bahasa Inggris, namun penggunaan bahasa persatuan yaitu bahasa Indonesia perlu dilakukan, terutama untuk mempermudah koordinasi antar sesama, dalam situasi formal maupun informal. Pada setiap kegiatan tetap ditekankan untuk menggunakan bahasa inggris atau setidaknya diselipkan dengan penggunaan kosa kata bahasa inggris untuk melatih keterampilan dari setiap mahasiswa.
                 </p>
               </div>
             </div>
@@ -86,7 +76,7 @@ export default function FAQSection() {
                 aria-expanded={openAccordion === 2 ? 'true' : 'false'}
                 onClick={() => toggleAccordion(2)}
               >
-                <span>Is there a Figma file available?</span>
+                <span>Apakah di UKM-FT EECOM Hanya Belajar Melalui Materi Saja?</span>
                 <svg
                   data-accordion-icon
                   className={`w-3 h-3 ${openAccordion === 2 ? '' : 'rotate-180'} shrink-0`}
@@ -113,18 +103,8 @@ export default function FAQSection() {
               aria-labelledby="accordion-flush-heading-2"
             >
               <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                <p className="mb-2 text-gray-500 dark:text-gray-400">
-                  Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.
-                </p>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Check out the{' '}
-                  <a
-                    href="https://flowbite.com/figma/"
-                    className="text-blue-600 dark:text-blue-500 hover:underline"
-                  >
-                    Figma design system
-                  </a>{' '}
-                  based on the utility classes from Tailwind CSS and components from Flowbite.
+                <p className="mb-2 text-gray-500 dark:text-gray-400 text-justify">
+                UKM-FT EECOM melakukan proses pembelajaran tidak hanya terbatas pada materi ataupun teori. UKM-FT EECOM menggunakan cara pembelajaran yang lebih interaktif dan bervariasi untuk membantu anggota atau pengurus untuk membantu meningkatkan kemampuan berbahasa inggris. Beberapa metode pembelajaran yang diterapkan adalah seperti diskusi antar kelompok, public speaking, debat, game interaktif dan event yang diselenggarakan.
                 </p>
               </div>
             </div>
@@ -137,7 +117,7 @@ export default function FAQSection() {
                 aria-expanded={openAccordion === 3 ? 'true' : 'false'}
                 onClick={() => toggleAccordion(3)}
               >
-                <span>Is there a Figma file available?</span>
+                <span>Mengapa Jargon UKM-FT EECOM Be Enjoy Be Happy?</span>
                 <svg
                   data-accordion-icon
                   className={`w-3 h-3 ${openAccordion === 3 ? '' : 'rotate-180'} shrink-0`}
@@ -164,33 +144,25 @@ export default function FAQSection() {
               aria-labelledby="accordion-flush-heading-2"
             >
               <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                <p className="mb-2 text-gray-500 dark:text-gray-400">
-                  Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.
-                </p>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Check out the{' '}
-                  <a
-                    href="https://flowbite.com/figma/"
-                    className="text-blue-600 dark:text-blue-500 hover:underline"
-                  >
-                    Figma design system
-                  </a>{' '}
-                  based on the utility classes from Tailwind CSS and components from Flowbite.
+                <p className="mb-2 text-gray-500 dark:text-gray-400 text-justify">
+                  Jargon Be Enjoy Be Happy memiliki arti kata nikmatilah dan berbahagialah. Kata tersebut bermakna bahwa ketika beproses dalam UKM-FT EECOM tentu tidak luput dengan namanya belajar bahasa Inggris, yang mana ketika proses tersebut diperlukan agar setiap individu senang dan menikmati saat proses belajar berlangsung supaya motivasi belajar semakin tinggi sehingga output pembelajaran menjadi efektif dan efisien serta tujuan dari organisasi menjadi tercapai.
                 </p>
               </div>
             </div>
+
+
             {/* Accordion Item 3 */}
             <h2 id="accordion-flush-heading-2">
               <button
                 type="button"
                 className="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
-                aria-expanded={openAccordion === 3 ? 'true' : 'false'}
-                onClick={() => toggleAccordion(3)}
+                aria-expanded={openAccordion === 4 ? 'true' : 'false'}
+                onClick={() => toggleAccordion(4)}
               >
-                <span>Is there a Figma file available?</span>
+                <span>Kegiatan di UKM-FT EECOM Untuk Member dan Pengurus?</span>
                 <svg
                   data-accordion-icon
-                  className={`w-3 h-3 ${openAccordion === 3 ? '' : 'rotate-180'} shrink-0`}
+                  className={`w-3 h-3 ${openAccordion === 4 ? '' : 'rotate-180'} shrink-0`}
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -210,22 +182,12 @@ export default function FAQSection() {
             {/* Konten Accordion 3 */}
             <div
               id="accordion-flush-body-2"
-              className={`${openAccordion === 3 ? '' : 'hidden'}`}
+              className={`${openAccordion === 4 ? '' : 'hidden'}`}
               aria-labelledby="accordion-flush-heading-2"
             >
               <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                <p className="mb-2 text-gray-500 dark:text-gray-400">
-                  Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.
-                </p>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Check out the{' '}
-                  <a
-                    href="https://flowbite.com/figma/"
-                    className="text-blue-600 dark:text-blue-500 hover:underline"
-                  >
-                    Figma design system
-                  </a>{' '}
-                  based on the utility classes from Tailwind CSS and components from Flowbite.
+                <p className="mb-2 text-gray-500 dark:text-gray-400 text-justify">
+                  Seluruh rangkaian kegiatan UKM-FT EECOM tidak hanya untuk member terdaftar ataupun pengurus saja, tetapi terbuka juga untuk seluruh mahasiswa fakultas teknik terutama yang memiliki minat terhadap bahasa inggris. Kegiatan yang terbuka untuk keluarga fakultas teknik adalah seperti contohnya seminar, debat, competisi dan lain sebagainya.
                 </p>
               </div>
             </div>
