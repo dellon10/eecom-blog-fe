@@ -74,7 +74,7 @@ export default function NavbarComponent() {
                 <Link to="/info-1">News</Link>
               </Dropdown.Item>
               <Dropdown.Item className="text-red-700">
-                <Link to="/info-1">Announcement</Link>
+                <Link to="/informations/announcements/bee/assignment-tm1-bee-2024">Announcement</Link>
               </Dropdown.Item>
               <Dropdown.Item className="text-red-700">
                 <Link to="/info-2">Competition</Link>
