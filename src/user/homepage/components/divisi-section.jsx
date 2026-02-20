@@ -7,7 +7,7 @@ export default function DivisionSection() {
       
       <div>
         <p className="text-center md:text-base text-sm md:px-40 mt-5">
-          Pada Periode Tahun 2024, UKM-FT EECOM memiliki 4 divisi dengan berbagai macam agenda dan program kerja pada masing-masing divisi dengan tujuan agar tercapainya visi dan misi UKM-FT EECOM di Periode ini.
+          Pada Periode Tahun 2025, UKM-FT EECOM memiliki 4 divisi dengan berbagai macam agenda dan program kerja pada masing-masing divisi dengan tujuan agar tercapainya visi dan misi UKM-FT EECOM di Periode ini eecccccccc.
         </p>
       </div>
       
