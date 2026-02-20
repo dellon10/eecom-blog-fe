@@ -3,7 +3,7 @@ import { entreIcons, hrdIcons, icIcons, rndIcons } from "../../../global/assets"
 export default function DivisionSection() {
   return (
     <section className="bg-white md:px-10 px-4 py-7 md:py-20">
-      <h1 className="w-full text-center text-2xl md:text-4xl font-bold">EECOM DIVISIONS</h1>
+      <h1 className="w-full text-center text-2xl md:text-4xl font-bold">Divisi EECOM</h1>
       
       <div>
         <p className="text-center md:text-base text-sm md:px-40 mt-5">
