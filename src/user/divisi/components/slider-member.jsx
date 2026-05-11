@@ -45,9 +45,9 @@ const SliderMember = ({ data }) => {
       <Slider {...settings}>
         {data.member.map((member, index) => (
           <div key={index} className="px-3">
-            
+
             {/* CARD */}
-            <div className="bg-white text-black rounded-lg border border-slate-400 shadow-md overflow-hidden flex flex-col h-[430px]">
+            <div className="bg-white text-black rounded-lg border border-slate-400 shadow-md overflow-hidden flex flex-col h-[500px]">
 
               {/* FOTO */}
               <div className="bg-red-500 flex justify-center items-center py-4">
@@ -58,26 +58,28 @@ const SliderMember = ({ data }) => {
                 />
               </div>
 
-              {/* ISI */}
-              <div className="flex flex-col justify-between items-center text-center p-4 flex-1">
+              {/* ISI CARD */}
+              <div className="flex flex-col items-center text-center p-4 flex-1">
 
                 {/* BAGIAN TEKS */}
-                <div className="h-[140px]">
+                <div className="flex-1 flex flex-col justify-start">
+
                   <h5 className="text-2xl font-semibold">
                     {member.name}
                   </h5>
 
-                  <h5 className="text-lg font-semibold text-red-600 mt-1">
+                  <h5 className="text-lg font-semibold text-red-600 mt-2">
                     {member.as}
                   </h5>
 
                   <h5 className="text-base mt-3">
                     {member.major}&apos;{member.akt}
                   </h5>
+
                 </div>
 
                 {/* BUTTON */}
-                <button className="bg-red-500 text-white text-lg px-8 py-2 rounded-2xl hover:bg-red-600 transition">
+                <button className="bg-red-500 text-white text-lg px-8 py-2 rounded-2xl hover:bg-red-600 transition mt-auto">
                   More
                 </button>
 

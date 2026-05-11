@@ -264,7 +264,7 @@
         "major" : "Industrial Engineering",
         "akt": 2023
       }, {
-        "id" : 5,
+        "id" : 6,
         "name": "Radina Tri Apsari",
         "as" : "Staff of IC",
         "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723806589/eecom/divisi/ic/nadya_ayu_isabela_staff_ic_jurggn.png",
@@ -324,9 +324,17 @@
         "id" : 6,
         "name": "COBAH DULU",
         "as" : "Staff of Entre",
-        "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723808770/eecom/divisi/entre/felicia_maulia_putri_staff_entre_it9ooi.png",
+        "photo": "https://drive.google.com/file/d/1DFMo0G8FUAKxnzuFsDkUu6VJG-23e8df/view?usp=sharing",
         "major" : "Informatics Engineering",
         "akt": 2027
+      },
+      {
+        "id" : 7,
+        "name": "bjorka",
+        "as" : "Staff of Entre",
+        "photo": "https://drive.google.com/file/d/1DFMo0G8FUAKxnzuFsDkUu6VJG-23e8df/view?usp=sharing",
+        "major" : "xx Engineering",
+        "akt": 2030
       }
     ]
   }
