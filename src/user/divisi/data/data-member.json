@@ -306,7 +306,7 @@
       },
       {
         "id" : 4,
-        "name": "Melani Wahyu Erista",
+        "name": "Admin 1",
         "as" : "Staff of Entre",
         "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723808773/eecom/divisi/entre/muhammad_khoirul_rozik_staff_entre_pscgfg.png",
         "major" : "Industrial Engineering",
@@ -322,11 +322,11 @@
       },
       {
         "id" : 6,
-        "name": "Mohammad Hafis Taufiqur Rohman",
+        "name": "COBAH DULU",
         "as" : "Staff of Entre",
         "photo": "https://res.cloudinary.com/dqr9vycth/image/upload/v1723808770/eecom/divisi/entre/felicia_maulia_putri_staff_entre_it9ooi.png",
-        "major" : "Industrial Engineering",
-        "akt": 2023
+        "major" : "Informatics Engineering",
+        "akt": 2027
       }
     ]
   }
