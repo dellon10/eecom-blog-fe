@@ -8,31 +8,31 @@ import { entreIcons, hrdIcons, icIcons, phIcons, rndIcons } from "../../../globa
 export default function CardDivision() {
   const divisions = [
     {
-      links: "/organisasi/ph/2024",
+      links: "/organisasi/ph/2026",
       icons: phIcons,
       titles: "Daily Manager",
       deskrips: "Berperan penting dalam mencapai tujuan organisasi dan memastikan operasional harian berjalan lancar.",
     },
     {
-      links: "/organisasi/hrd/2024",
+      links: "/organisasi/hrd/2026",
       icons: hrdIcons,
       titles: "Human Resource Development",
       deskrips: "Berperan untuk menjaga kekeluargaan anggota UKM-FT EECOM baik internal maupun ekstetrnal.",
     },
     {
-      links: "/organisasi/rnd/2024",
+      links: "/organisasi/rnd/2026",
       icons: rndIcons,
       titles: "Research And Development",
       deskrips: "Bergerak untuk meningkatkan dan menggali setiap potensi sumberdaya pengurus UKM-FT EECOM.",
     },
     {
-      links: "/organisasi/ic/2024",
+      links: "/organisasi/ic/2026",
       icons: icIcons,
       titles: "Information Communication",
       deskrips: "Bergerak di bidang informasi dan komunikasi serta sosial media UKM-FT EECOM.",
     },
     {
-      links: "/organisasi/entre/2024",
+      links: "/organisasi/entre/2026",
       icons: entreIcons,
       titles: "Entrepreneurship",
       deskrips: "Bergerak di bidang wirausaha UKM-FT EECOM. Memberikan pemasukan dana kepada UKM-FT EECOM.",
