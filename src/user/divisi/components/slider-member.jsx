@@ -41,15 +41,16 @@ const SliderMember = ({ data }) => {
   };
 
   return (
-    <div className="bg-slate-300 py-3 px-2">
+    <div className="bg-slate-300 py-4 px-2">
       <Slider {...settings}>
         {data.member.map((member, index) => (
-          <div key={index} className="px-2 h-full">
+          <div key={index} className="px-3">
             
-            <div className="bg-white text-black rounded-lg border border-slate-400 h-full flex flex-col shadow-md">
-              
+            {/* CARD */}
+            <div className="bg-white text-black rounded-lg border border-slate-400 shadow-md overflow-hidden flex flex-col h-[430px]">
+
               {/* FOTO */}
-              <div className="rounded-t-lg bg-red-500 flex justify-center items-center py-4">
+              <div className="bg-red-500 flex justify-center items-center py-4">
                 <img
                   src={member.photo}
                   alt={member.name}
@@ -57,25 +58,26 @@ const SliderMember = ({ data }) => {
                 />
               </div>
 
-              {/* ISI CARD */}
-              <div className="flex flex-col justify-between items-center p-4 flex-1 text-center">
-                
-                <div>
-                  <h5 className="text-lg font-semibold">
+              {/* ISI */}
+              <div className="flex flex-col justify-between items-center text-center p-4 flex-1">
+
+                {/* BAGIAN TEKS */}
+                <div className="h-[140px]">
+                  <h5 className="text-2xl font-semibold">
                     {member.name}
                   </h5>
 
-                  <h5 className="text-base font-semibold text-red-600">
+                  <h5 className="text-lg font-semibold text-red-600 mt-1">
                     {member.as}
                   </h5>
 
-                  <h5 className="my-2 text-sm">
+                  <h5 className="text-base mt-3">
                     {member.major}&apos;{member.akt}
                   </h5>
                 </div>
 
                 {/* BUTTON */}
-                <button className="bg-red-500 text-white text-lg px-6 py-1 rounded-xl mt-4 hover:bg-red-600 transition">
+                <button className="bg-red-500 text-white text-lg px-8 py-2 rounded-2xl hover:bg-red-600 transition">
                   More
                 </button>
 
