@@ -33,7 +33,7 @@ export default function FooterComponent() {
 
         <hr className="my-3 border-gray-200 sm:mx-auto lg:my-3" />
         <div className="flex items-center justify-between">
-          <span className="block text-sm text-center">© 2024 <Link to={""} className="hover:underline">UKM-FT EECOM</Link> | Be Enjoy Be Happy</span>
+          <span className="block text-sm text-center">© 2026 <Link to={""} className="hover:underline">UKM-FT EECOM</Link> | Be Enjoy Be Happy</span>
           <div className="flex">
             <Link to={"https://www.instagram.com/ukmfteecom/"} target="_blank" className="me-2"><BsInstagram/></Link>
             <Link to={"http://www.youtube.com/@UKMFTEECOM"} target="_blank" className="me-2"><BsYoutube/></Link>
